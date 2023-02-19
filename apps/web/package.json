@@ -1,27 +1,18 @@
 {
-  "name": "web",
-  "version": "0.0.0",
+    "name": "web",
+    "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "next": "^13.1.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "ui": "workspace:*"
+    "server": "workspace:*"
   },
   "devDependencies": {
-    "@babel/core": "^7.0.0",
-    "eslint-config-custom": "workspace:*",
-    "eslint": "7.32.0",
-    "tsconfig": "workspace:*",
-    "@types/node": "^17.0.12",
-    "@types/react": "^18.0.22",
-    "@types/react-dom": "^18.0.7",
-    "typescript": "^4.5.3"
+    "nuxt": "^3.2.2"
   }
 }
